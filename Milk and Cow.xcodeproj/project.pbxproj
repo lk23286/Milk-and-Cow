@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8587E874286B540C00318C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E873286B540C00318C8A /* AppDelegate.swift */; };
+		8587E876286B540C00318C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E875286B540C00318C8A /* SceneDelegate.swift */; };
+		8587E878286B540C00318C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E877286B540C00318C8A /* ViewController.swift */; };
+		8587E87B286B540C00318C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8587E879286B540C00318C8A /* Main.storyboard */; };
+		8587E87D286B541100318C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8587E87C286B541100318C8A /* Assets.xcassets */; };
+		8587E880286B541100318C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8587E87E286B541100318C8A /* LaunchScreen.storyboard */; };
+		8587E88B286B541200318C8A /* Milk_and_CowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E88A286B541200318C8A /* Milk_and_CowTests.swift */; };
+		8587E895286B541200318C8A /* Milk_and_CowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E894286B541200318C8A /* Milk_and_CowUITests.swift */; };
+		8587E897286B541200318C8A /* Milk_and_CowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587E896286B541200318C8A /* Milk_and_CowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8587E887286B541200318C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8587E868286B540C00318C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8587E86F286B540C00318C8A;
+			remoteInfo = "Milk and Cow";
+		};
+		8587E891286B541200318C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8587E868286B540C00318C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8587E86F286B540C00318C8A;
+			remoteInfo = "Milk and Cow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8587E870286B540C00318C8A /* Milk and Cow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milk and Cow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587E873286B540C00318C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8587E875286B540C00318C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8587E877286B540C00318C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8587E87A286B540C00318C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8587E87C286B541100318C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8587E87F286B541100318C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8587E881286B541100318C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8587E886286B541200318C8A /* Milk and CowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milk and CowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587E88A286B541200318C8A /* Milk_and_CowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk_and_CowTests.swift; sourceTree = "<group>"; };
+		8587E890286B541200318C8A /* Milk and CowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milk and CowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587E894286B541200318C8A /* Milk_and_CowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk_and_CowUITests.swift; sourceTree = "<group>"; };
+		8587E896286B541200318C8A /* Milk_and_CowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk_and_CowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8587E86D286B540C00318C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E883286B541200318C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E88D286B541200318C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8587E867286B540C00318C8A = {
+			isa = PBXGroup;
+			children = (
+				8587E872286B540C00318C8A /* Milk and Cow */,
+				8587E889286B541200318C8A /* Milk and CowTests */,
+				8587E893286B541200318C8A /* Milk and CowUITests */,
+				8587E871286B540C00318C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8587E871286B540C00318C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8587E870286B540C00318C8A /* Milk and Cow.app */,
+				8587E886286B541200318C8A /* Milk and CowTests.xctest */,
+				8587E890286B541200318C8A /* Milk and CowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8587E872286B540C00318C8A /* Milk and Cow */ = {
+			isa = PBXGroup;
+			children = (
+				8587E873286B540C00318C8A /* AppDelegate.swift */,
+				8587E875286B540C00318C8A /* SceneDelegate.swift */,
+				8587E877286B540C00318C8A /* ViewController.swift */,
+				8587E879286B540C00318C8A /* Main.storyboard */,
+				8587E87C286B541100318C8A /* Assets.xcassets */,
+				8587E87E286B541100318C8A /* LaunchScreen.storyboard */,
+				8587E881286B541100318C8A /* Info.plist */,
+			);
+			path = "Milk and Cow";
+			sourceTree = "<group>";
+		};
+		8587E889286B541200318C8A /* Milk and CowTests */ = {
+			isa = PBXGroup;
+			children = (
+				8587E88A286B541200318C8A /* Milk_and_CowTests.swift */,
+			);
+			path = "Milk and CowTests";
+			sourceTree = "<group>";
+		};
+		8587E893286B541200318C8A /* Milk and CowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8587E894286B541200318C8A /* Milk_and_CowUITests.swift */,
+				8587E896286B541200318C8A /* Milk_and_CowUITestsLaunchTests.swift */,
+			);
+			path = "Milk and CowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8587E86F286B540C00318C8A /* Milk and Cow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8587E89A286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and Cow" */;
+			buildPhases = (
+				8587E86C286B540C00318C8A /* Sources */,
+				8587E86D286B540C00318C8A /* Frameworks */,
+				8587E86E286B540C00318C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Milk and Cow";
+			productName = "Milk and Cow";
+			productReference = 8587E870286B540C00318C8A /* Milk and Cow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8587E885286B541200318C8A /* Milk and CowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8587E89D286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and CowTests" */;
+			buildPhases = (
+				8587E882286B541200318C8A /* Sources */,
+				8587E883286B541200318C8A /* Frameworks */,
+				8587E884286B541200318C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8587E888286B541200318C8A /* PBXTargetDependency */,
+			);
+			name = "Milk and CowTests";
+			productName = "Milk and CowTests";
+			productReference = 8587E886286B541200318C8A /* Milk and CowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8587E88F286B541200318C8A /* Milk and CowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8587E8A0286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and CowUITests" */;
+			buildPhases = (
+				8587E88C286B541200318C8A /* Sources */,
+				8587E88D286B541200318C8A /* Frameworks */,
+				8587E88E286B541200318C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8587E892286B541200318C8A /* PBXTargetDependency */,
+			);
+			name = "Milk and CowUITests";
+			productName = "Milk and CowUITests";
+			productReference = 8587E890286B541200318C8A /* Milk and CowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8587E868286B540C00318C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8587E86F286B540C00318C8A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8587E885286B541200318C8A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8587E86F286B540C00318C8A;
+					};
+					8587E88F286B541200318C8A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8587E86F286B540C00318C8A;
+					};
+				};
+			};
+			buildConfigurationList = 8587E86B286B540C00318C8A /* Build configuration list for PBXProject "Milk and Cow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8587E867286B540C00318C8A;
+			productRefGroup = 8587E871286B540C00318C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8587E86F286B540C00318C8A /* Milk and Cow */,
+				8587E885286B541200318C8A /* Milk and CowTests */,
+				8587E88F286B541200318C8A /* Milk and CowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8587E86E286B540C00318C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8587E880286B541100318C8A /* LaunchScreen.storyboard in Resources */,
+				8587E87D286B541100318C8A /* Assets.xcassets in Resources */,
+				8587E87B286B540C00318C8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E884286B541200318C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E88E286B541200318C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8587E86C286B540C00318C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8587E878286B540C00318C8A /* ViewController.swift in Sources */,
+				8587E874286B540C00318C8A /* AppDelegate.swift in Sources */,
+				8587E876286B540C00318C8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E882286B541200318C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8587E88B286B541200318C8A /* Milk_and_CowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587E88C286B541200318C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8587E895286B541200318C8A /* Milk_and_CowUITests.swift in Sources */,
+				8587E897286B541200318C8A /* Milk_and_CowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8587E888286B541200318C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8587E86F286B540C00318C8A /* Milk and Cow */;
+			targetProxy = 8587E887286B541200318C8A /* PBXContainerItemProxy */;
+		};
+		8587E892286B541200318C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8587E86F286B540C00318C8A /* Milk and Cow */;
+			targetProxy = 8587E891286B541200318C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8587E879286B540C00318C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8587E87A286B540C00318C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8587E87E286B541100318C8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8587E87F286B541100318C8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8587E898286B541200318C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8587E899286B541200318C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8587E89B286B541200318C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Milk and Cow/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-Cow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8587E89C286B541200318C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Milk and Cow/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-Cow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8587E89E286B541200318C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-CowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milk and Cow.app/Milk and Cow";
+			};
+			name = Debug;
+		};
+		8587E89F286B541200318C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-CowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milk and Cow.app/Milk and Cow";
+			};
+			name = Release;
+		};
+		8587E8A1286B541200318C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-CowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milk and Cow";
+			};
+			name = Debug;
+		};
+		8587E8A2286B541200318C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lgl.Milk-and-CowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milk and Cow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8587E86B286B540C00318C8A /* Build configuration list for PBXProject "Milk and Cow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587E898286B541200318C8A /* Debug */,
+				8587E899286B541200318C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8587E89A286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and Cow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587E89B286B541200318C8A /* Debug */,
+				8587E89C286B541200318C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8587E89D286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and CowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587E89E286B541200318C8A /* Debug */,
+				8587E89F286B541200318C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8587E8A0286B541200318C8A /* Build configuration list for PBXNativeTarget "Milk and CowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587E8A1286B541200318C8A /* Debug */,
+				8587E8A2286B541200318C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8587E868286B540C00318C8A /* Project object */;
+}
